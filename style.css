@@ -1,0 +1,97 @@
+body
+{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0 20px;
+}
+
+header
+{
+    text-align: center;
+    padding: 60px 0 30px;
+}
+
+header h1
+{
+    font-size: 5em;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+header p
+{
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: #aaa;
+}
+
+h2
+{
+    font-size: 1.8em;
+    letter-spacing: 3px;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.project-card
+{
+    background-color: #1a1420;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.project-title
+{
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.project-media
+{
+    background-color: #4a2c35;
+    padding: 60px 20px;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.project-role
+{
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.project-link
+{
+    color: #e8e8e8;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+#contacts ul
+{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#contacts li
+{
+    padding: 12px 0;
+    border-bottom: 1px solid #333;
+    letter-spacing: 1px;
+}
+
+#contacts li::before
+{
+    content: "=> ";
+    color: #e8e8e8;
+}
