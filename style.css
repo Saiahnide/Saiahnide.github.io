@@ -16,7 +16,13 @@ header
 header h1
 {
     font-size: 5em;
-    letter-spacing: 4px;
+    font-family: "Geist Pixel", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-variation-settings:
+    "ELSH" 0;
+    letter-spacing: 1px;
     margin: 0;
 }
 
@@ -48,18 +54,16 @@ h2
 .project-title
 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2em;
     letter-spacing: 1px;
     margin-top: 0;
 }
 
-.project-media
-{
-    background-color: #4a2c35;
-    padding: 60px 20px;
-    text-align: center;
-    color: #ccc;
-    margin-bottom: 15px;
+.project-media {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .project-role
@@ -94,4 +98,14 @@ h2
 {
     content: "=> ";
     color: #e8e8e8;
+}
+
+@media (min-width: 768px)
+{
+    body
+    {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
 }
